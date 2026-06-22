@@ -1,43 +1,41 @@
 # GUI Todo List
 
-A simple desktop Todo List application built with Python and FreeSimpleGUI.
+A desktop Todo List application built with Python and FreeSimpleGUI.
+
+The application allows users to create, edit, delete, and manage tasks through a simple graphical interface. Tasks are automatically stored in a CSV file and restored when the application starts.
 
 ## Features
 
 * Add new tasks
 * Edit existing tasks
 * Delete tasks
-* Save tasks automatically in a CSV file
-* Simple graphical user interface
+* Automatic CSV data storage
+* Graphical user interface
 * Welcome and goodbye sound effects
-* Standalone Windows executable available in the `dist` folder
-
----
+* Standalone Windows executable included
 
 ## Project Structure
 
 ### main.py
 
-Frontend of the application and graphical user interface.
+Frontend and graphical user interface.
 
 ### Backend.py
 
-Handles task management operations such as:
+Handles task management logic:
 
-* Creating tasks
-* Editing tasks
-* Deleting tasks
-* Saving and loading task data
+* Create tasks
+* Edit tasks
+* Delete tasks
+* Save and load task data
 
 ### csvwr.py
 
-Responsible for reading and writing task data to CSV files.
+Handles CSV file reading and writing operations.
 
 ### welcomesound.py
 
-Handles welcome and goodbye sound playback.
-
----
+Plays welcome and exit sound effects.
 
 ## Technologies Used
 
@@ -48,42 +46,47 @@ Handles welcome and goodbye sound playback.
 * OS
 * Time
 
----
+## Installation
 
-## Required Python Modules
-
-```python
-import welcomesound
-import os
-import csv
-import FreeSimpleGUI as gui
-import Backend
-import pygame
-import time
-```
-
-Install external dependencies:
+Install required packages:
 
 ```bash
 pip install FreeSimpleGUI pygame
 ```
 
----
-
-## Running From Source
+## Run From Source
 
 ```bash
 python main.py
 ```
 
----
+## Windows Executable
+
+The precompiled executable is available in:
+
+```text
+dist/
+```
+
+No Python installation is required to run the executable version.
 
 ## Data Storage
 
-Tasks are stored in a CSV file and are automatically loaded when the application starts.
+Task data is stored in CSV format and automatically loaded when the application starts.
 
----
+## Screenshots
+
+Add screenshots of the application here.
+
+## License
+
+This project is released for educational and personal use.
 
 ## Author
 
-Personal project created for learning Python GUI development, file management, and modular application design.
+Developed as a personal project for learning:
+
+* GUI development
+* Modular programming
+* CSV file management
+* Python application packaging
