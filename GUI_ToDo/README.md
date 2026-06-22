@@ -80,14 +80,12 @@ python main.py
 
 ## Windows Executable
 
-The compiled Windows executable can be found in:
 
-```text
-dist/
-```
 
 No Python installation is required to run the executable version.
 
+Run 
+To_Do.exe
 ---
 
 ## Data Storage
