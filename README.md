@@ -90,3 +90,7 @@ Developed as a personal project for learning:
 * Modular programming
 * CSV file management
 * Python application packaging
+
+Screenshot of App
+<img width="648" height="469" alt="image" src="https://github.com/user-attachments/assets/84c8348d-9055-4c18-951c-362d9fc57aa2" />
+
