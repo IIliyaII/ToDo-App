@@ -78,16 +78,6 @@ python main.py
 
 ---
 
-## Windows Executable
-
-
-
-No Python installation is required to run the executable version.
-
-Run 
-To_Do.exe
----
-
 ## Data Storage
 
 Tasks are stored in a CSV file and are automatically loaded when the application starts.
